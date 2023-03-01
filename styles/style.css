@@ -102,4 +102,85 @@ nav ul li a:hover {
 #cupom .texto h2 {
   margin: 2rem;
   font-size: 1.7647058824rem;
+}
+#cupom .input {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 20px;
+  border: 4px solid #FFF;
+  background-color: #FFF;
+  transition: box-shadow 0.5s ease-out;
+}
+#cupom .input input {
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+  width: 540px;
+  outline: none;
+  font-size: 26px;
+}
+#cupom .input:hover, #cupom .input:focus-within {
+  box-shadow: 1px 1px 8px 1px #4D455D;
+  outline: none;
+}
+#cupom button {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: #4D455D;
+  color: #E96479;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #E96479;
+  border-radius: 40px;
+  transition: all 0.3s ease-in;
+}
+#cupom button:hover {
+  color: #4D455D;
+  background-color: #E96479;
+  border-color: #4D455D;
+}
+#cupom button:active {
+  transform: scale(0.9);
+}
+
+#sobre {
+  background-color: #4D455D;
+  padding: 1rem;
+  text-align: center;
+}
+#sobre img {
+  border-radius: 100px;
+  height: 350px;
+  width: 650px;
+}
+#sobre h3 {
+  color: #FFF;
+  font-size: 1.2rem;
+  margin-top: 9px;
+}
+#sobre h4 {
+  color: #E96479;
+  font-size: 1rem;
+}
+#sobre p {
+  margin-top: 19px;
+  color: #FFF;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid #E96479;
+  padding: 1.2rem;
+  color: #000;
+  background: linear-gradient(to left, #4D455D, #E96479, #F5E9CF, #F5E9CF);
+}
+footer i {
+  color: #FF0000;
 }/*# sourceMappingURL=style.css.map */
